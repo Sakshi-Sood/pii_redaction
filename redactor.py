@@ -1,5 +1,7 @@
 import re
 import spacy
+import hashlib
+from faker import Faker
 
 try:
     nlp = spacy.load("en_core_web_sm")
@@ -8,6 +10,34 @@ except OSError:
     import sys
     subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
     nlp = spacy.load("en_core_web_sm")
+
+def get_fake_value(text, entity_type):
+    """Deterministically generate fake data based on original text and entity type."""
+    normalized = " ".join(text.lower().split())
+    seed = int(hashlib.sha256(f"{normalized}_{entity_type}".encode()).hexdigest()[:15], 16)
+    
+    Faker.seed(seed)
+    fake = Faker('en_IN')
+    
+    if entity_type == 'PERSON':
+        return fake.name()
+    elif entity_type == 'EMAIL':
+        return fake.email()
+    elif entity_type == 'PHONE':
+        return fake.phone_number()
+    elif entity_type == 'ORG':
+        return fake.company()
+    elif entity_type == 'ADDRESS':
+        return fake.address().replace('\n', ', ')
+    elif entity_type == 'DOB':
+        return fake.date_of_birth().strftime('%B %d, %Y')
+    elif entity_type == 'IP':
+        return fake.ipv4()
+    elif entity_type == 'SSN':
+        return fake.ssn()
+    elif entity_type == 'CREDIT_CARD':
+        return fake.credit_card_number()
+    return "REDACTED"
 
 def detect_emails(text):
     spans = []
