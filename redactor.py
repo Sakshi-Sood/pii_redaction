@@ -4,35 +4,13 @@ import hashlib
 from docx import Document
 from faker import Faker
 
-def _load_nlp():
-    """Load spaCy model with graceful fallbacks for cloud hosting."""
-    try:
-        import en_core_web_sm
-        return en_core_web_sm.load()
-    except Exception:
-        pass
-
-    try:
-        return spacy.load("en_core_web_sm")
-    except Exception:
-        pass
-
-    try:
-        import spacy.cli
-        spacy.cli.download("en_core_web_sm")
-        return spacy.load("en_core_web_sm")
-    except Exception:
-        pass
-
-    try:
-        import subprocess
-        import sys
-        subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
-        return spacy.load("en_core_web_sm")
-    except Exception:
-        return spacy.blank("en")
-
-nlp = _load_nlp()
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    import subprocess
+    import sys
+    subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
 
 def normalize_entity(text, entity_type):
     """Normalize text for consistent hashing and registry mapping."""
