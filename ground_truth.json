@@ -1,0 +1,600 @@
+[
+  {
+    "id": "sample_01",
+    "text": "Registered Office: 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India; Telephone: +91 2135 660 000; Contact Person: Rajesh Hegde; Email: secretarial@kshdistriparks.com",
+    "spans": [
+      {
+        "start": 19,
+        "end": 115,
+        "type": "ADDRESS",
+        "value": "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India"
+      },
+      {
+        "start": 128,
+        "end": 147,
+        "type": "PHONE",
+        "value": "+91 2135 660 000"
+      },
+      {
+        "start": 165,
+        "end": 177,
+        "type": "PERSON",
+        "value": "Rajesh Hegde"
+      },
+      {
+        "start": 186,
+        "end": 216,
+        "type": "EMAIL",
+        "value": "secretarial@kshdistriparks.com"
+      }
+    ]
+  },
+  {
+    "id": "sample_02",
+    "text": "Corporate Office: 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India; Tel: 020-68196600; Email: compliance@kshint.com",
+    "spans": [
+      {
+        "start": 18,
+        "end": 117,
+        "type": "ADDRESS",
+        "value": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India"
+      },
+      {
+        "start": 124,
+        "end": 136,
+        "type": "PHONE",
+        "value": "020-68196600"
+      },
+      {
+        "start": 145,
+        "end": 164,
+        "type": "EMAIL",
+        "value": "compliance@kshint.com"
+      }
+    ]
+  },
+  {
+    "id": "sample_03",
+    "text": "The Individual Promoters of our Company are Kushal Subbayya Hegde, Pushpa Kushal Hegde, Rajesh Kushal Hegde, Rohit Kushal Hegde and Rakhi Girija Shetty.",
+    "spans": [
+      {
+        "start": 44,
+        "end": 65,
+        "type": "PERSON",
+        "value": "Kushal Subbayya Hegde"
+      },
+      {
+        "start": 67,
+        "end": 86,
+        "type": "PERSON",
+        "value": "Pushpa Kushal Hegde"
+      },
+      {
+        "start": 88,
+        "end": 107,
+        "type": "PERSON",
+        "value": "Rajesh Kushal Hegde"
+      },
+      {
+        "start": 109,
+        "end": 127,
+        "type": "PERSON",
+        "value": "Rohit Kushal Hegde"
+      },
+      {
+        "start": 132,
+        "end": 151,
+        "type": "PERSON",
+        "value": "Rakhi Girija Shetty"
+      }
+    ]
+  },
+  {
+    "id": "sample_04",
+    "text": "Nuvama Wealth Management Limited, 801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India, Tel: +91 22 40094400, E-mail: ksh.ipo@nuvama.com, Contact Person: Lokesh Shah / Soumavo Sarkar",
+    "spans": [
+      {
+        "start": 0,
+        "end": 32,
+        "type": "ORG",
+        "value": "Nuvama Wealth Management Limited"
+      },
+      {
+        "start": 34,
+        "end": 158,
+        "type": "ADDRESS",
+        "value": "801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India"
+      },
+      {
+        "start": 165,
+        "end": 180,
+        "type": "PHONE",
+        "value": "+91 22 40094400"
+      },
+      {
+        "start": 190,
+        "end": 207,
+        "type": "EMAIL",
+        "value": "ksh.ipo@nuvama.com"
+      },
+      {
+        "start": 225,
+        "end": 236,
+        "type": "PERSON",
+        "value": "Lokesh Shah"
+      },
+      {
+        "start": 239,
+        "end": 253,
+        "type": "PERSON",
+        "value": "Soumavo Sarkar"
+      }
+    ]
+  },
+  {
+    "id": "sample_05",
+    "text": "ICICI Securities Limited, ICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India, Tel: +91 22 6807 7100, E-mail: ksh@icicisecurities.com, Contact Person: Kishan Rastogi / Abhijit Diwan",
+    "spans": [
+      {
+        "start": 0,
+        "end": 24,
+        "type": "ORG",
+        "value": "ICICI Securities Limited"
+      },
+      {
+        "start": 26,
+        "end": 114,
+        "type": "ADDRESS",
+        "value": "ICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India"
+      },
+      {
+        "start": 121,
+        "end": 137,
+        "type": "PHONE",
+        "value": "+91 22 6807 7100"
+      },
+      {
+        "start": 147,
+        "end": 170,
+        "type": "EMAIL",
+        "value": "ksh@icicisecurities.com"
+      },
+      {
+        "start": 188,
+        "end": 202,
+        "type": "PERSON",
+        "value": "Kishan Rastogi"
+      },
+      {
+        "start": 205,
+        "end": 218,
+        "type": "PERSON",
+        "value": "Abhijit Diwan"
+      }
+    ]
+  },
+  {
+    "id": "sample_06",
+    "text": "MUFG Intime India Private Limited, 1st Floor, L B S Marg, Vikhroli (West) Mumbai 400083, (Maharashtra), India, Telephone: +91 81081 14949, E-mail: kshinternational.ipo@in.mpms.mufg.com, Contact Person: Shanti Gopalkrishnan",
+    "spans": [
+      {
+        "start": 0,
+        "end": 33,
+        "type": "ORG",
+        "value": "MUFG Intime India Private Limited"
+      },
+      {
+        "start": 35,
+        "end": 109,
+        "type": "ADDRESS",
+        "value": "1st Floor, L B S Marg, Vikhroli (West) Mumbai 400083, (Maharashtra), India"
+      },
+      {
+        "start": 123,
+        "end": 138,
+        "type": "PHONE",
+        "value": "+91 81081 14949"
+      },
+      {
+        "start": 148,
+        "end": 186,
+        "type": "EMAIL",
+        "value": "kshinternational.ipo@in.mpms.mufg.com"
+      },
+      {
+        "start": 204,
+        "end": 224,
+        "type": "PERSON",
+        "value": "Shanti Gopalkrishnan"
+      }
+    ]
+  },
+  {
+    "id": "sample_07",
+    "text": "ICICI Bank Limited, 163, 5th Floor, H.T.Parekh Marg Backbay Reclamation Churchgate, Mumbai – 400020, Telephone: 022-68052182, Email: Ipocmg@icicibank.com, Contact Person: Varun Badai",
+    "spans": [
+      {
+        "start": 0,
+        "end": 18,
+        "type": "ORG",
+        "value": "ICICI Bank Limited"
+      },
+      {
+        "start": 20,
+        "end": 99,
+        "type": "ADDRESS",
+        "value": "163, 5th Floor, H.T.Parekh Marg Backbay Reclamation Churchgate, Mumbai – 400020"
+      },
+      {
+        "start": 112,
+        "end": 124,
+        "type": "PHONE",
+        "value": "022-68052182"
+      },
+      {
+        "start": 133,
+        "end": 152,
+        "type": "EMAIL",
+        "value": "Ipocmg@icicibank.com"
+      },
+      {
+        "start": 170,
+        "end": 181,
+        "type": "PERSON",
+        "value": "Varun Badai"
+      }
+    ]
+  },
+  {
+    "id": "sample_08",
+    "text": "The Federal Bank Limited, Ground Floor, Kubera Chambers Opp. Sancheti Hospital Shivajinagar, Pune – 411 005, Maharashtra, India, Tel: 020-25537554, Email: puneshivajinagar@federalbank.co.in, Contact Person: Anand Kulkarni",
+    "spans": [
+      {
+        "start": 0,
+        "end": 24,
+        "type": "ORG",
+        "value": "The Federal Bank Limited"
+      },
+      {
+        "start": 26,
+        "end": 126,
+        "type": "ADDRESS",
+        "value": "Ground Floor, Kubera Chambers Opp. Sancheti Hospital Shivajinagar, Pune – 411 005, Maharashtra, India"
+      },
+      {
+        "start": 133,
+        "end": 145,
+        "type": "PHONE",
+        "value": "020-25537554"
+      },
+      {
+        "start": 154,
+        "end": 186,
+        "type": "EMAIL",
+        "value": "puneshivajinagar@federalbank.co.in"
+      },
+      {
+        "start": 204,
+        "end": 218,
+        "type": "PERSON",
+        "value": "Anand Kulkarni"
+      }
+    ]
+  },
+  {
+    "id": "sample_09",
+    "text": "Kotak Mahindra Bank Limited, 5th Floor, Marathon IT Park Bund Garden Road, Pune – 411 001 Maharashtra, India, Tel: +91 20 6720 5200, Email: pune.corporate@kotak.com, Contact Person: Priya Sharma",
+    "spans": [
+      {
+        "start": 0,
+        "end": 27,
+        "type": "ORG",
+        "value": "Kotak Mahindra Bank Limited"
+      },
+      {
+        "start": 29,
+        "end": 107,
+        "type": "ADDRESS",
+        "value": "5th Floor, Marathon IT Park Bund Garden Road, Pune – 411 001 Maharashtra, India"
+      },
+      {
+        "start": 114,
+        "end": 130,
+        "type": "PHONE",
+        "value": "+91 20 6720 5200"
+      },
+      {
+        "start": 139,
+        "end": 162,
+        "type": "EMAIL",
+        "value": "pune.corporate@kotak.com"
+      },
+      {
+        "start": 180,
+        "end": 192,
+        "type": "PERSON",
+        "value": "Priya Sharma"
+      }
+    ]
+  },
+  {
+    "id": "sample_10",
+    "text": "HDFC Bank Limited, Signature Building, Bhandarkar road Shivaji Nagar, Pune – 411 004 Maharashtra, India, Tel: 020-41035000, Email: ipodesk@hdfcbank.com, Contact Person: Rohan Deshmukh",
+    "spans": [
+      {
+        "start": 0,
+        "end": 17,
+        "type": "ORG",
+        "value": "HDFC Bank Limited"
+      },
+      {
+        "start": 19,
+        "end": 102,
+        "type": "ADDRESS",
+        "value": "Signature Building, Bhandarkar road Shivaji Nagar, Pune – 411 004 Maharashtra, India"
+      },
+      {
+        "start": 109,
+        "end": 121,
+        "type": "PHONE",
+        "value": "020-41035000"
+      },
+      {
+        "start": 130,
+        "end": 149,
+        "type": "EMAIL",
+        "value": "ipodesk@hdfcbank.com"
+      },
+      {
+        "start": 167,
+        "end": 181,
+        "type": "PERSON",
+        "value": "Rohan Deshmukh"
+      }
+    ]
+  },
+  {
+    "id": "sample_11",
+    "text": "Our manufacturing facility at Unit 1 is located at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India. Our Unit 2 is located at Plot No. J-25, Taloja Industrial Area, Village Padghe, Taluka Panvel, Raigad – 410 208, Maharashtra, India, and Unit 3 is situated at Plot No. 5, Chakan Industrial Area, Phase II, Village Khalumbre, Taluka Khed, Pune – 410 501, Maharashtra, India.",
+    "spans": [
+      {
+        "start": 51,
+        "end": 147,
+        "type": "ADDRESS",
+        "value": "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India"
+      },
+      {
+        "start": 175,
+        "end": 281,
+        "type": "ADDRESS",
+        "value": "Plot No. J-25, Taloja Industrial Area, Village Padghe, Taluka Panvel, Raigad – 410 208, Maharashtra, India"
+      },
+      {
+        "start": 310,
+        "end": 422,
+        "type": "ADDRESS",
+        "value": "Plot No. 5, Chakan Industrial Area, Phase II, Village Khalumbre, Taluka Khed, Pune – 410 501, Maharashtra, India"
+      }
+    ]
+  },
+  {
+    "id": "sample_12",
+    "text": "Kushal Subbayya Hegde resides at S. no. 245/ 104, Pushpakamal, Deccan Gymkhana Society, lane no. 3 Prabhat Road, opposite PYC basketball court, Deccan Gymkhana, Pune – 411 004 Maharashtra, India. Pushpa Kushal Hegde resides at Pushpakamal Apartment, Flat – 1, S. no. 245/ 104, Prabhat Road Lane no. 3, Shivaji Nagar, Deccan Gymkhana, Pune – 411 004, Maharashtra, India. Rohit Kushal Hegde resides at 602, Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 21,
+        "type": "PERSON",
+        "value": "Kushal Subbayya Hegde"
+      },
+      {
+        "start": 33,
+        "end": 187,
+        "type": "ADDRESS",
+        "value": "S. no. 245/ 104, Pushpakamal, Deccan Gymkhana Society, lane no. 3 Prabhat Road, opposite PYC basketball court, Deccan Gymkhana, Pune – 411 004 Maharashtra, India"
+      },
+      {
+        "start": 189,
+        "end": 208,
+        "type": "PERSON",
+        "value": "Pushpa Kushal Hegde"
+      },
+      {
+        "start": 220,
+        "end": 361,
+        "type": "ADDRESS",
+        "value": "Pushpakamal Apartment, Flat – 1, S. no. 245/ 104, Prabhat Road Lane no. 3, Shivaji Nagar, Deccan Gymkhana, Pune – 411 004, Maharashtra, India"
+      },
+      {
+        "start": 363,
+        "end": 381,
+        "type": "PERSON",
+        "value": "Rohit Kushal Hegde"
+      },
+      {
+        "start": 393,
+        "end": 495,
+        "type": "ADDRESS",
+        "value": "602, Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India"
+      }
+    ]
+  },
+  {
+    "id": "sample_13",
+    "text": "Kushal Subbayya Hegde, date of birth: October 14, 1952, is the Chairman and Whole-time Director of our Company. Rajesh Kushal Hegde, DOB: May 22, 1978, is the Managing Director. Rohit Kushal Hegde, birth date: January 05, 1982, is the Joint Managing Director.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 21,
+        "type": "PERSON",
+        "value": "Kushal Subbayya Hegde"
+      },
+      {
+        "start": 38,
+        "end": 54,
+        "type": "DOB",
+        "value": "October 14, 1952"
+      },
+      {
+        "start": 113,
+        "end": 132,
+        "type": "PERSON",
+        "value": "Rajesh Kushal Hegde"
+      },
+      {
+        "start": 139,
+        "end": 151,
+        "type": "DOB",
+        "value": "May 22, 1978"
+      },
+      {
+        "start": 180,
+        "end": 198,
+        "type": "PERSON",
+        "value": "Rohit Kushal Hegde"
+      },
+      {
+        "start": 213,
+        "end": 229,
+        "type": "DOB",
+        "value": "January 05, 1982"
+      }
+    ]
+  },
+  {
+    "id": "sample_14",
+    "text": "Our Chief Financial Officer is Sandeep Nemgonda Patil, who can be contacted at cfo@kshint.com or +91 98220 12345. Our Company Secretary and Compliance Officer is Ragini Chokshi, reachable at cs@kshint.com or 020-68196611.",
+    "spans": [
+      {
+        "start": 31,
+        "end": 53,
+        "type": "PERSON",
+        "value": "Sandeep Nemgonda Patil"
+      },
+      {
+        "start": 78,
+        "end": 92,
+        "type": "EMAIL",
+        "value": "cfo@kshint.com"
+      },
+      {
+        "start": 96,
+        "end": 112,
+        "type": "PHONE",
+        "value": "+91 98220 12345"
+      },
+      {
+        "start": 163,
+        "end": 177,
+        "type": "PERSON",
+        "value": "Ragini Chokshi"
+      },
+      {
+        "start": 192,
+        "end": 205,
+        "type": "EMAIL",
+        "value": "cs@kshint.com"
+      },
+      {
+        "start": 209,
+        "end": 221,
+        "type": "PHONE",
+        "value": "020-68196611"
+      }
+    ]
+  },
+  {
+    "id": "sample_15",
+    "text": "Independent Directors include Sanjay Shriram Kulkarni, Milind Vasant Joshi, and Sunita Kishor Phadke. Legal Counsel to the Offer is Trilegal, located at One World Center, 10th Floor, Tower 2A & 2B, Senapati Bapat Marg, Lower Parel (West) Mumbai – 400 013, Maharashtra, India, Tel: +91 22 4079 1000.",
+    "spans": [
+      {
+        "start": 30,
+        "end": 53,
+        "type": "PERSON",
+        "value": "Sanjay Shriram Kulkarni"
+      },
+      {
+        "start": 55,
+        "end": 74,
+        "type": "PERSON",
+        "value": "Milind Vasant Joshi"
+      },
+      {
+        "start": 80,
+        "end": 100,
+        "type": "PERSON",
+        "value": "Sunita Kishor Phadke"
+      },
+      {
+        "start": 154,
+        "end": 273,
+        "type": "ADDRESS",
+        "value": "One World Center, 10th Floor, Tower 2A & 2B, Senapati Bapat Marg, Lower Parel (West) Mumbai – 400 013, Maharashtra, India"
+      },
+      {
+        "start": 280,
+        "end": 296,
+        "type": "PHONE",
+        "value": "+91 22 4079 1000"
+      }
+    ]
+  },
+  {
+    "id": "sample_16",
+    "text": "The investor bidding portal backend is hosted on server IP 192.168.1.100 and secondary mirror 10.0.4.25 for secure Bid cum Application Form submissions.",
+    "spans": [
+      {
+        "start": 59,
+        "end": 72,
+        "type": "IP",
+        "value": "192.168.1.100"
+      },
+      {
+        "start": 95,
+        "end": 104,
+        "type": "IP",
+        "value": "10.0.4.25"
+      }
+    ]
+  },
+  {
+    "id": "sample_17",
+    "text": "Statutory Auditors of the Company are MSKA & Associates, Chartered Accountants, 602, Floor 6, Raheja Titanium, Western Express Highway, Geetanjali Railway Colony, Ram Nagar, Goregaon (East), Mumbai 400063, Maharashtra, India, Tel: +91 22 6831 1600, Email: audit.mumbai@mska.in, Contact: Tushar Kurani",
+    "spans": [
+      {
+        "start": 80,
+        "end": 228,
+        "type": "ADDRESS",
+        "value": "602, Floor 6, Raheja Titanium, Western Express Highway, Geetanjali Railway Colony, Ram Nagar, Goregaon (East), Mumbai 400063, Maharashtra, India"
+      },
+      {
+        "start": 235,
+        "end": 251,
+        "type": "PHONE",
+        "value": "+91 22 6831 1600"
+      },
+      {
+        "start": 260,
+        "end": 280,
+        "type": "EMAIL",
+        "value": "audit.mumbai@mska.in"
+      },
+      {
+        "start": 291,
+        "end": 304,
+        "type": "PERSON",
+        "value": "Tushar Kurani"
+      }
+    ]
+  },
+  {
+    "id": "sample_18",
+    "text": "INTERNAL RISKS: Goods and Services Tax regulations, Indian Rupees currency fluctuations, Net Proceeds deployment, Bid/Offer Closing Day timelines, and Anchor Investors allocations are subject to SEBI ICDR Regulations and Companies Act provisions.",
+    "spans": []
+  },
+  {
+    "id": "sample_19",
+    "text": "KSH International Limited was originally incorporated as Bhandary Metal Extrusion Private Limited and subsequently renamed to KSH International Private Limited pursuant to special resolutions passed by our Shareholders.",
+    "spans": []
+  }
+]
